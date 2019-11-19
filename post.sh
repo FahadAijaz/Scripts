@@ -1,4 +1,1 @@
-curl --header "Content-Type: application/json" \
-  --request POST \
-  --data '{"goodsTypes":"test1", "srcLat":31.508, "srcLng": 74.347, "destLat": 31.48, "destLng" : 74.333 }' \
- -k  https://localhost:5001/order/
+curl --header "Content-Type: application/json" --request POST --data '{"GoodsTypes":"test1", "SourceLatitude":31.508, "SourceLongitude": 74.347, "DestinationLatitude": 31.48, "DestinationLongitude" : 74.333 }' -k  http://localhost:7000/bilty/order/
